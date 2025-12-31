@@ -1,0 +1,17 @@
+# ── Secrets – never commit ─────────────────────
+.env
+.env.local
+/backend/.secrets/
+
+# Node modules / build artefacts
+/frontend/node_modules/
+frontend/.venv/
+frontend/build/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS generated files
+Thumbs.db
+.DS_Store

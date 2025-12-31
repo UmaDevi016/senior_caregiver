@@ -1,0 +1,24 @@
+{
+    "name": "multilingual-health-assistant",
+    "version": "1.0.0",
+    "description": "Multilingual Health Assistant with Voice Features",
+    "scripts": {
+        "lingo:sync": "lingo sync",
+        "lingo:pull": "lingo pull",
+        "lingo:push": "lingo push",
+        "install:lingo": "npm install -g @lingo/cli"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@lingo/cli": "latest"
+    },
+    "keywords": [
+        "health",
+        "multilingual",
+        "voice",
+        "translation",
+        "assistant"
+    ],
+    "author": "",
+    "license": "MIT"
+}

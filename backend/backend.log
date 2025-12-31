@@ -1,0 +1,40 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/workspaces/senior_caregiver/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11456] using StatReload
+INFO:     Started server process [11476]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:34224 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52926 - "GET /api/senior/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52938 - "GET /api/medications?senior_id=1 HTTP/1.1" 200 OK
+[Lingo.dev] Error: [Errno -2] Name or service not known
+INFO:     127.0.0.1:47212 - "POST /api/translate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45988 - "GET /api/today-schedule?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42186 - "GET /api/adherence-summary?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36430 - "POST /api/medications HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:36438 - "POST /api/senior/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54734 - "POST /api/medications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60634 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60650 - "GET /api/medications?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60652 - "GET /api/today-schedule?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60654 - "GET /api/adherence-summary?senior_id=1 HTTP/1.1" 200 OK
+[Lingo.dev] Error: [Errno -2] Name or service not known
+INFO:     127.0.0.1:45450 - "POST /api/translate HTTP/1.1" 200 OK
+[Lingo.dev] Error: [Errno -2] Name or service not known
+INFO:     127.0.0.1:45466 - "POST /api/translate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52168 - "POST /api/acknowledge HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52172 - "GET /api/adherence-summary?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52180 - "GET /api/today-schedule?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42624 - "POST /api/medications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42632 - "POST /api/medications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42636 - "GET /api/medications?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42642 - "DELETE /api/medications/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42652 - "GET /api/medications?senior_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47080 - "POST /api/senior/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47082 - "GET /api/senior/1 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11476]
+INFO:     Stopping reloader process [11456]

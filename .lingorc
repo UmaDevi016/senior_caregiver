@@ -1,0 +1,27 @@
+{
+  "projectId": "${LINGO_PROJECT_ID}",
+  "apiKey": "${LINGO_API_KEY}",
+  "sourceLocale": "en",
+  "targetLocales": [
+    "hi",
+    "ta",
+    "te",
+    "bn",
+    "ml",
+    "mr",
+    "or",
+    "es",
+    "fr",
+    "ar"
+  ],
+  "files": [
+    {
+      "pattern": "frontend/src/locales/*.json",
+      "parser": "json"
+    }
+  ],
+  "output": {
+    "path": "frontend/src/locales",
+    "format": "json"
+  }
+}
